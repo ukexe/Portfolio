@@ -89,7 +89,7 @@ const HeroSection = () => {
             </video>
             <div style={styles.overlay}></div>
             <div style={styles.content}>
-                <h1 className="hero-title" style={styles.title}>Hello, I'm Udhaya Kumar A</h1>
+                <h1 className="hero-title" style={styles.title}>Hello, I'm a good guy A</h1>
                 <p style={styles.tagline}>Aspiring Public Speaker, AI Enthusiast, and Technology Innovator</p>
                 <p style={styles.description}>
                     A Computer Science Engineering student passionate about harnessing the power of AI and technology to solve real-world challenges.
