@@ -84,7 +84,7 @@ const HeroSection = () => {
     return (
         <section style={styles.hero}>
             <video style={styles.video} autoPlay loop muted>
-                <source src="C:\Users\DELL\Desktop\PORTFOLIO\portfolio\public\{assets\images}\hey.mp4" type="video/mp4" />
+                <source src="Portfolio/public/assets/hey.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
             <div style={styles.overlay}></div>
