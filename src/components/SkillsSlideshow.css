@@ -1,0 +1,38 @@
+.slideshow-container {
+    padding: 2rem;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 255, 255, 0.5);
+    text-align: center;
+    color: #00ffcc;
+}
+
+.slideshow-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.slideshow-content {
+    opacity: 0;
+    transform: scale(0.8);
+    animation: fadeInScale 1s forwards; /* Animation for fade in and scale */
+}
+
+.category {
+    font-size: 1.5rem;
+}
+
+.skill {
+    font-size: 1.2rem;
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
