@@ -11,6 +11,7 @@ const Certifications = () => {
                 <li>Advanced LLMOps: Deploying and Managing LLMs in Production</li>
                 <li>Journey to Cloud: Envisioning Your Solution by IBM</li>
                 <li>Business Analysis by Microsoft and LinkedIn</li>
+                <li>Advanced AI: Transformers for Computer Vision</li>
             </ul>
 
             <style jsx>{`
