@@ -3,92 +3,14 @@ import React, { useEffect } from 'react';
 
 const ContactPage = () => {
     useEffect(() => {
-        // Canvas setup for line animation
-        const canvas = document.getElementById('animationCanvas');
-        const ctx = canvas.getContext('2d');
-        let width = window.innerWidth;
-        let height = window.innerHeight;
-        canvas.width = width;
-        canvas.height = height;
-
-        // Create lines
-        const lines = Array.from({ length: 15 }, () => ({
-            x: Math.random() * width,
-            y: Math.random() * height,
-            dx: (Math.random() - 0.5) * 2,
-            dy: (Math.random() - 0.5) * 2,
-            length: Math.random() * 60 + 20,
-            angle: Math.random() * Math.PI * 2,
-        }));
-
-        // Update and draw lines
-        function animate() {
-            ctx.clearRect(0, 0, width, height);
-
-            lines.forEach((line) => {
-                // Move line ends based on angle and velocity
-                line.x += line.dx;
-                line.y += line.dy;
-
-                const endX = line.x + Math.cos(line.angle) * line.length;
-                const endY = line.y + Math.sin(line.angle) * line.length;
-
-                // Bounce lines off edges
-                if (line.x <= 0 || line.x >= width) line.dx *= -1;
-                if (line.y <= 0 || line.y >= height) line.dy *= -1;
-
-                // Draw line
-                ctx.beginPath();
-                ctx.moveTo(line.x, line.y);
-                ctx.lineTo(endX, endY);
-                ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
-                ctx.lineWidth = 1;
-                ctx.stroke();
-                ctx.closePath();
-
-                // Check for collisions and bounce lines off each other
-                lines.forEach((otherLine) => {
-                    if (otherLine !== line) {
-                        const distX = otherLine.x - line.x;
-                        const distY = otherLine.y - line.y;
-                        const distance = Math.sqrt(distX * distX + distY * distY);
-
-                        if (distance < 50) {
-                            line.dx *= -1;
-                            line.dy *= -1;
-                        }
-                    }
-                });
-            });
-
-            requestAnimationFrame(animate);
-        }
-
-        animate();
-
-        // Resize canvas on window resize
-        window.addEventListener('resize', () => {
-            width = window.innerWidth;
-            height = window.innerHeight;
-            canvas.width = width;
-            canvas.height = height;
-        });
-
-        return () => {
-            window.removeEventListener('resize', () => {
-                width = window.innerWidth;
-                height = window.innerHeight;
-                canvas.width = width;
-                canvas.height = height;
-            });
-        };
+        // Any necessary effect logic
     }, []);
 
     return (
         <div className="contact-page">
             <canvas id="animationCanvas"></canvas>
             <h1>Contact Me</h1>
-            <form className="contact-form" action="https://formspree.io/f/xgedqnry" method="POST">
+            <form className="contact-form" action="https://formspree.io/f/myzyweqr" method="POST">
                 <label htmlFor="name">Name</label>
                 <input type="text" id="name" name="name" required />
 

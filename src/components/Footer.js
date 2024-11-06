@@ -19,7 +19,7 @@ const Footer = () => {
                 marginBottom: '0.5rem'
             }}>
                 <a 
-                    href="https://github.com/yourusername" 
+                    href="https://github.com/ukexe" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     style={{ 
@@ -33,7 +33,7 @@ const Footer = () => {
                     GitHub
                 </a>
                 <a 
-                    href="https://linkedin.com/in/yourusername" 
+                    href="https://www.linkedin.com/in/udhaya-kumar-a-exe" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     style={{ 
@@ -47,7 +47,7 @@ const Footer = () => {
                     LinkedIn
                 </a>
                 <a 
-                    href="https://twitter.com/yourusername" 
+                    href="https://x.com/kumar_cse41857" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     style={{ 

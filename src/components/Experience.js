@@ -16,6 +16,12 @@ const Experience = () => {
                     <p><strong>Saveetha Medical College, May - June 2024</strong></p>
                     <p>Led research on AI mimicking brain functions, creating adaptive neural network models inspired by brain plasticity, with a focus on decision-making.</p>
                 </li>
+                <li>
+                    <h3>Campus Ambassador</h3>
+                    <p><strong>Tata Consultancy Services (TCS), July 2024 – Present</strong></p>
+                    <p>Organized workshops, webinars, and campus events to foster engagement with TCS's digital and innovation programs.</p>
+                    <p>Collaborated with TCS representatives to provide guidance and mentorship for students interested in technology and professional development.</p>
+                </li>
             </ul>
 
             <style jsx>{`
