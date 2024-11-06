@@ -10,24 +10,21 @@ const Experience = () => {
                     <h3>Software Development and Data Science Intern</h3>
                     <p><strong>NIHON EDUTECH PRIVATE LIMITED, July - August 2024</strong></p>
                     <p>Gained experience in software development, working with NLP tools like SpaCy and NLTK, developing full-stack web applications, and designing RESTful APIs.</p>
+                    <p>Developed full-stack web applications using HTML, CSS, JavaScript, Python, and Flask, and designed RESTful APIs for secure data exchange</p>
+                    <p>Collaborated with senior developers to ensure data accuracy and resolve discrepancies between front-end and back-end systems</p>
                 </li>
                 <li>
                     <h3>Lead Researcher</h3>
                     <p><strong>Saveetha Medical College, May - June 2024</strong></p>
                     <p>Led research on AI mimicking brain functions, creating adaptive neural network models inspired by brain plasticity, with a focus on decision-making.</p>
+                    <p>Developed a prototype of a brain-inspired AI system that can adapt to new situations and make decisions based on past experiences.</p>
+                    <p>Collaborated with interdisciplinary teams to integrate bio-inspired algorithms into practical use cases, contributing to advancements in both AI andneuroscience.</p>
                 </li>
                 <li>
                     <h3>Campus Ambassador</h3>
                     <p><strong>Tata Consultancy Services (TCS), July 2024 – Present</strong></p>
                     <p>Organized workshops, webinars, and campus events to foster engagement with TCS's digital and innovation programs.</p>
                     <p>Collaborated with TCS representatives to provide guidance and mentorship for students interested in technology and professional development.</p>
-                </li>
-                <li>
-                    <h3>Software Development and Data Science Intern</h3>
-                    <p><strong>NIHON EDUTECH PRIVATE LIMITED ,July 2024 - August 2024</strong></p>
-                    <p>Gained hands-on experience in software development and data science, applying theoretical knowledge to real-world challenges.</p>
-                    <p>Developed full-stack web applications using HTML, CSS, JavaScript, Python, and Flask, and designed RESTful APIs for secure data exchange</p>
-                    <p>Collaborated with senior developers to ensure data accuracy and resolve discrepancies between front-end and back-end systems.</p>
                 </li>
             </ul>
 

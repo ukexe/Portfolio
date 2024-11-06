@@ -130,6 +130,13 @@ const AboutPage = () => {
                             Conducted research on brain plasticity simulation in adaptive AI models.
                         </p>
                     </div>
+                    <div className="timeline-item">
+                        <div className="date">2024</div>
+                        <h3>Software Development and Data Science Intern - NIHON EDUTECH PRIVATE LIMITED</h3>
+                        <p className="text">
+                        Contributed to AI-driven tools using machine learning models like TfidfVectorizer and MultiOutputClassifiers.
+                        </p>
+                    </div>
                 </div>
             </section>
 
