@@ -13,21 +13,31 @@ import ContactPage from './pages/ContactPage';
 import BackgroundWrapper from './components/BackgroundWrapper';
 import LoadingSpinner from './components/LoadingSpinner';
 
+// Register GSAP's ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Simulate loading for 2 seconds
+        // Set a timer for simulating a loading screen
         const timer = setTimeout(() => setLoading(false), 2000);
-        gsap.from('.app-container', { opacity: 0, y: 20, duration: 1.5, ease: 'power3.out', delay: 0.5 });
 
+        // Initial animation for page elements
+        gsap.from('.app-container', {
+            opacity: 0,
+            y: 20,
+            duration: 1.5,
+            ease: 'power3.out',
+            delay: 0.5,
+        });
+
+        // Enable smooth scrolling animations using ScrollTrigger
         ScrollTrigger.create({
             trigger: '.app-container',
             start: 'top top',
             end: 'bottom bottom',
-            scrub: true
+            scrub: true,
         });
 
         return () => clearTimeout(timer);
@@ -36,7 +46,9 @@ const App = () => {
     return (
         <Router>
             <BackgroundWrapper>
-                {loading ? <LoadingSpinner /> : (
+                {loading ? (
+                    <LoadingSpinner />
+                ) : (
                     <div className="app-container">
                         <Header />
                         <main className="app-content">

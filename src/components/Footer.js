@@ -62,7 +62,7 @@ const Footer = () => {
                 </a>
             </div>
             <div style={{ opacity: 0.8 }}>
-                &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+                &copy; {new Date().getFullYear()} ukexe. All rights reserved.
             </div>
         </footer>
     );
